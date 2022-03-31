@@ -1,0 +1,45 @@
+.edit-event-form {
+  margin-top: $spacing-06;
+  display: grid;
+  row-gap: $spacing-07;
+}
+
+.edit-event-form__text-info {
+  margin-top: $spacing-05;
+}
+
+.edit-event-form__subheading {
+  @include carbon--type-style('productive-heading-01');
+}
+
+.edit-event-form__p {
+  margin-top: rem(2px);
+  @include carbon--type-style('body-short-01');
+}
+
+.edit-event-form__datepicker {
+  & .bx--form-item {
+    width: inherit;
+  }
+
+  & .bx--date-picker-container {
+    width: inherit;
+  }
+
+  & .bx--date-picker.bx--date-picker--single {
+    width: inherit;
+
+    & .bx--date-picker__input {
+      width: 100%;
+    }
+  }
+}
+
+.edit-event-form__button-wrapper {
+  margin-top: $spacing-05;
+  max-width: rem(672px);
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: $spacing-05;
+}

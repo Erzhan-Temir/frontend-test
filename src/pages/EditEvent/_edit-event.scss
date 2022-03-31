@@ -1,0 +1,10 @@
+.edit-event {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.edit-event__heading {
+  margin-top: rem(6px);
+  margin-bottom: rem(20px);
+  @include carbon--type-style('productive-heading-04');
+}

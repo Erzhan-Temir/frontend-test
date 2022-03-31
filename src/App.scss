@@ -1,0 +1,15 @@
+@import '~carbon-components/scss/globals/scss/theme.scss';
+
+$carbon--theme: $carbon--theme--g10;
+@include carbon--theme();
+
+@import './components/FormHeader/form-header';
+@import './components/EditEventForm/edit-event-form';
+@import './pages/EditEvent/edit-event';
+
+.edit-event-content {
+  padding-top: rem(20px);
+  padding-bottom: $spacing-11;
+
+  border-left: 256px solid $ui-01;
+}
