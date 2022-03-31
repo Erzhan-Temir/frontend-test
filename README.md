@@ -1,6 +1,6 @@
 # Live view of the project
 
-[Link text Here](https://erzhan-temir.github.io/frontend-test/)
+[Link](https://erzhan-temir.github.io/frontend-test/)
 
 # Getting Started with Create React App
 
