@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <FormHeader />
       <Content className='edit-event-content'>
         <Routes>
-          <Route path="/" element={<EditEvent />} />
+          <Route path="/frontend-test" element={<EditEvent />} />
         </Routes>
       </Content>
     </BrowserRouter>
