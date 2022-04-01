@@ -31,7 +31,7 @@ const EditEventForm: React.FC = () => (
           id="event-timezone"
           items={timezones}
           label="Europe/Budapest"
-          titleText="Event timezone"
+          titleText="Event time zone"
         />
       </div>
     </div>
