@@ -4,6 +4,12 @@
   row-gap: $spacing-07;
 }
 
+.edit-event-form__event-name {
+  & .bx--form__helper-text {
+    color: $gray-60;
+  }
+}
+
 .edit-event-form__text-info {
   margin-top: $spacing-05;
 }

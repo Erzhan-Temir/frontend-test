@@ -12,7 +12,7 @@ import { timezones } from 'constants/timezones';
 const EditEventForm: React.FC = () => (
   <Form className="edit-event-form">
     <div className="bx--row">
-      <div className="bx--col-lg-8 bx--col-md-6">
+      <div className="bx--col-lg-8 bx--col-md-6 edit-event-form__event-name">
         <TextInput
           helperText="Displayed as the channel title while the event page is open."
           id="event-name"

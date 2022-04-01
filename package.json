@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://erzhan-temir.github.io/frontend-test/",
   "dependencies": {
-    "@carbon/grid": "10.43.1",
     "@carbon/icons-react": "10.22.0",
     "carbon-components": "10.25.0",
     "carbon-components-react": "7.25.0",
